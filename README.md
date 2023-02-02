@@ -32,7 +32,7 @@ https://pnpm.io/pnpm-workspace_yaml
 
 - Create and export the function that is needed to be used as dependency
 In package.json "main": "index.js", is the entry point. 
-
+ 
 - Import workslace dependency 
 pnpm add shared --filter student --workspace
 This will add a workspace dependency in student package.json ("shared": "workspace:^1.0.0")
